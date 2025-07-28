@@ -46,9 +46,10 @@ if st.button("Classify Lyrics"):
 
         st.markdown("#### Similarity Scores:")
         for category, score in result["scores"].items():
-            color = score_to_color(score)
+            color = score_to_color(score)  # color depends on score value
             st.markdown(
-                f"- <span style='color:{color}; font-weight:bold'>{category.capitalize()}</span>: `{score:.4f}`",
+                f"- <span style='color:black; font-weight:bold'>{category.capitalize()}</span>: "
+                f"<span style='color:{color}; font-weight:bold'>{score:.4f}</span>",
                 unsafe_allow_html=True
             )
 
