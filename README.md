@@ -14,7 +14,7 @@ When lyrics are pasted into the app, CleanWave classifies them into one of four 
 ---
 
 ## How It Works:
-1. **Paste lyrics** into the [Streamlit web app](https://cleanwave.streamlit.app/) (recommended), or run it locally by following the [Quickstart](#quickstart) instructions below.
+1. **Paste lyrics** into the [Streamlit web app](https://cleanwave.streamlit.app/)(recommended), or run it locally by following the [Quickstart](#quickstart) instructions below.
 2. **Lyrics are embedded** using a transformer model.
 3. **Embeddings are compared** to a Pinecone vector database of labeled lyrics.
 4. **Semantic similarity scores** are calculated for each FCC category.
