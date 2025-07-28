@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# API keys or secrets
+*.env
+*.key
+*.token
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+data/*.json
+data/*.csv
+data/*.txt
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# VSCode project settings
+.vscode/
+
+# PyCharm project settings
+.idea/
