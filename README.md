@@ -13,12 +13,31 @@ When lyrics are pasted into the app, CleanWave classifies them into one of four 
 
 ---
 
+Using the Streamlit App
+
+How to Use:
+Paste the full lyrics of a song into the input box.
+
+Click "Analyze" to classify the song.
+
+CleanWave will return:
+
+An FCC Verdict (Safe, Profane, Indecent, or Obscene)
+
+Similarity scores for each label category
+
+A few closest example songs from the Pinecone database for transparency
+
+This allows DJs, moderators, and content reviewers to make fast and transparent decisions without needing to interpret FCC guidelines on their own.
+
+
+
 ## How It Works:
-1. **Paste lyrics** into the Streamlit web app.
+1. **Paste lyrics** into the [Streamlit web app](https://cleanwave.streamlit.io) (recommended), or run it locally by following the [Quickstart](#quickstart) instructions below.
 2. **Lyrics are embedded** using a transformer model.
 3. **Embeddings are compared** to a Pinecone vector database of labeled lyrics.
 4. **Semantic similarity scores** are calculated for each FCC category.
-5. **FCC verdict** is displayed, color-coded for clarity.
+5. **FCC verdict** is displayed with similarity score details.
 
 ---
 
