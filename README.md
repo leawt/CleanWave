@@ -1,7 +1,7 @@
 # CleanWave
 _Checking if a song is radio ready._
 
-CleanWave is a semantic lyric classification tool built to help radio DJs and content moderators determine whether a song is compliant with [FCC broadcasting standards](https://www.fcc.gov/consumers/guides/obscene-indecent-and-profane-broadcasts). By leveraging Pinecone, sentence-transformers, and Streamlit, CleanWave avoids rigid keyword filtering and instead uses semantic similarity to make nuanced classification decisions.
+[CleanWave](https://cleanwave.streamlit.app/) is a semantic lyric classification tool built to help radio DJs and content moderators determine whether a song is compliant with [FCC broadcasting standards](https://www.fcc.gov/consumers/guides/obscene-indecent-and-profane-broadcasts). By leveraging Pinecone, sentence-transformers, and Streamlit, CleanWave avoids rigid keyword filtering and instead uses semantic similarity to make nuanced classification decisions.
 
 When lyrics are pasted into the app, CleanWave classifies them into one of four FCC categories — Safe, Profane, Indecent, or Obscene — enabling users to make informed broadcasting decisions with transparency and speed.
 
@@ -55,18 +55,7 @@ CleanWave avoids heavy model training by using **Pinecone as a zero-shot classif
    - The most semantically similar group is selected as the **FCC Verdict**, with similarity scores and examples shown.
 
 5. **UI**  
-   - A simple [Streamlit](https://streamlit.io/) web app interface for users to paste lyrics and view results.
-
----
-
-## Why Pinecone?
-
-| Challenge | Pinecone Advantage |
-|----------|--------------------|
-| Ambiguous FCC rules | Semantic search allows nuance beyond keywords |
-| Limited labeled data | Works well with small, high-quality datasets |
-| Need for real-time response | Fast vector search for interactive apps |
-| Explainability | Returns similar examples for human review |
+   - A simple [Streamlit](https://cleanwave.streamlit.app/) web app interface for users to paste lyrics and view results.
 
 ---
 
