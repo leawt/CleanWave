@@ -39,3 +39,4 @@ Thumbs.db
 # PyCharm project settings
 .idea/
 CleanWave/
+embeddings.pkl
