@@ -5,7 +5,7 @@ _Checking if a song is radio ready._
 
 When lyrics are pasted into the app, CleanWave classifies them into one of four FCC categories — Safe, Profane, Indecent, or Obscene — enabling users to make informed broadcasting decisions with transparency and speed.
 
-## FCC Definitions
+### FCC Definitions
 - **Obscene**: Appeals to prurient interest, depicts sexual conduct in a patently offensive way, and lacks serious artistic, political, or scientific value.
 - **Indecent**: Describes sexual or excretory acts or organs in a patently offensive way but does not meet the full obscenity test.
 - **Profane**: Contains grossly offensive language (e.g., curse words, slurs).
