@@ -5,15 +5,15 @@ _Checking if a song is radio ready._
 
 When lyrics are pasted into the app, CleanWave classifies them into one of four FCC categories — Safe, Profane, Indecent, or Obscene — enabling users to make informed broadcasting decisions with transparency and speed.
 
-The idea for this app came from my time as a DJ at my college radio station (90.1 FM KZSU!). Whenever I was picking songs on the fly or taking requests from callers, I’d end up frantically scrubbing through lyrics to make sure nothing violated FCC rules. Profane songs were easy to spot, but the lines between _indecent_ and _obscene_ were way blurrier. I used to think, “I should build a tool for this,” but quickly realized it would take a huge amount of data to match songs 1:1 and would still need some serious NLP to handle the gray areas.
-
-With Pinecone and semantic search, I was finally able to get around those problems. Instead of trying to directly label every single song, CleanWave uses embeddings and vector search to understand the meaning behind the lyrics and classify them accordingly.
-
 ### FCC Definitions
 - **Obscene**: Appeals to prurient interest, depicts sexual conduct in a patently offensive way, and lacks serious artistic, political, or scientific value.
 - **Indecent**: Describes sexual or excretory acts or organs in a patently offensive way but does not meet the full obscenity test.
 - **Profane**: Contains grossly offensive language (e.g., curse words, slurs).
 - **Safe**: Contains no objectionable content.
+
+The idea for this app came from my time as a DJ at my college radio station (90.1 FM KZSU!). Whenever I was picking songs on the fly or taking requests from callers, I’d end up frantically scrubbing through lyrics to make sure nothing violated FCC rules. Profane songs were easy to spot, but the lines between _indecent_ and _obscene_ were way blurrier. I used to think, “I should build a tool for this,” but quickly realized it would take a huge amount of data to match songs 1:1 and would still need some serious NLP to handle the gray areas.
+
+With Pinecone and semantic search, I was finally able to get around those problems. Instead of trying to directly label every single song, CleanWave uses embeddings and vector search to understand the meaning behind the lyrics and classify them accordingly.
 
 ---
 
