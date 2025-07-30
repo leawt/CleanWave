@@ -17,15 +17,6 @@ With Pinecone and semantic search, I was finally able to get around those proble
 
 ---
 
-## How It Works:
-1. **Paste lyrics** into the [Streamlit web app](https://cleanwave.streamlit.app/) (or run it locally-- see [Quickstart](#quickstart) instructions below).
-2. **Lyrics are embedded** using a transformer model.
-3. **Embeddings are compared** to a Pinecone vector database of labeled lyrics.
-4. **Semantic similarity scores** are calculated for each FCC category.
-5. **FCC verdict** is displayed with similarity score details.
-
----
-
 ## Key Challenges Addressed
 
 ### Problem 1: FCC Rules Are Ambiguous  
@@ -42,7 +33,16 @@ CleanWave avoids heavy model training by using **Pinecone as a zero-shot classif
 
 ---
 
-## Workflow
+## How It Works:
+1. **Paste lyrics** into the [Streamlit web app](https://cleanwave.streamlit.app/) (or run it locally-- see [Quickstart](#quickstart) instructions below).
+2. **Lyrics are embedded** using a transformer model.
+3. **Embeddings are compared** to a Pinecone vector database of labeled lyrics.
+4. **Semantic similarity scores** are calculated for each FCC category.
+5. **FCC verdict** is displayed with similarity score details.
+
+---
+
+## How I Built It: 
 
 1. **Data Collection & Labeling**  
    - Uses [this Kaggle dataset of 60,000 Spotify songs](https://www.kaggle.com/datasets/joebeachcapital/57651-spotify-songs).  
